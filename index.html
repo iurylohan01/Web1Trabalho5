@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> Sócrates </title>
+
+  <!-- Imports de CSS -->
+  <link href="css/normalize.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/dropmenu.css" rel="stylesheet" type="text/css" />
+  <link href="css/base.css" rel="stylesheet" type="text/css" />
+  <link href="css/game.css" rel="stylesheet" type="text/css" />
+
+  <!-- Imports dos Fav.Icons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="fav.icon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="fav.icon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="fav.icon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="fav.icon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="fav.icon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="fav.icon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="fav.icon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="fav.icon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="fav.icon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="fav.icon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="fav.icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="fav.icon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="fav.icon/favicon-16x16.png">
+
+  <!-- Configs dos Fav.Icons -->
+  <link rel="manifest" href="json/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="icons
+  /ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+  <!-- Essa é a parte do DROP-MENU -->
+  <div id="drop1">
+    <nav class="dropmenuu">
+      <ul>
+        <li><a><b>Informações</b></a>
+          <ul>
+            <li><b><a target="_blank" href="https://github.com/iurylohan01/Web1Trabalho4" _blank">Repositório
+                  Git</a></b></li>
+            <li><b><a target="_blank" href="https://replit.com/@IuryLohan/4deg-Trabalho#index.html">Código
+                  Repl.it</a></b></li>
+        </li>
+      </ul>
+      <li><a target="_blank"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSem7Cih_vrf1BibKyVNpKUaSOlH4JcGTH-1S1Vry-MyIEjz-g/viewform?usp=sf_link"
+          </a><b
+            style="background: #4161AD;
+background: linear-gradient(to right, #4161AD 0%, #45A9B8 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Opine</b>
+      </li>
+    </nav>
+  </div>
+  <div id="home1">
+    <a id="icone"><img src="img/socrates2.png" width="35em"></a>
+  </div>
+
+  <!-- Essa é a parte do TEXTO INICIAL -->
+  <div class="introducao">
+    <h1 class="gradient-claro"><b> Bem-vindo ao Sócrates! </b></h1>
+    <p> sinta-se à vontade em nosso "mini-game" </p>
+  </div>
+
+  <div class="container">
+    <div class="molde molde-color1">
+      <h3 class="text1">O PC escolheu um número de 1 a 30, </h3>
+      <h3 class="text1 text-resize1">tente <b class="gradient-claro">advinhar</b> qual foi escolhido </h3>
+      <p class="opacidade" id="m1"> *Digite um número para começar </p>
+
+      <input style="width: 44px;" type="text" placeholder="1" id="resposta">
+      <button onclick="play()" id="my_btn">Tentar</button>
+      
+      <p class="opacidade" id="m2"></p>
+      <p class="opacidade" id="m3"></p>
+    </div>
+  </div>
+
+  <!-- Agradecimentos -->
+  <div id="fim">
+    <br><br><br><br><br><br><br><br><br><br>
+    <p id="agradecimentos"><b> Você chegou ao fim. Obrigado por ver até aqui.</b></p>
+  </div>
+
+  <!-- Script anexado -->
+  <script src="j.script/script.js"></script>
+
+</body>
+
+</html>

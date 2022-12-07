@@ -1,0 +1,55 @@
+.text1{
+  color: white;
+  margin: 3;
+  font-size: 20px;
+  letter-spacing: 1px;
+
+}
+.text-resize1{
+  margin-top: -1em;
+}
+.molde > p{
+  color: white;
+  
+}
+#m1{
+  margin-top: -1em;
+  
+}
+.opacidade{
+  opacity: 0.6;
+  text-shadow: 0px 0px 23px rgba(0, 0, 0, 1);
+  letter-spacing: 1.5px;
+  font-weight: lighter;
+}
+input[type="text"]{
+    width: 16px;
+    font-weight: 600;
+    padding: 1.9% 0;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5.5px;
+    border: 2px solid #202020;
+    font-size: 15.6px;
+
+    -webkit-box-shadow: 0px 0px 39px 1px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 0px 39px 1px rgba(0,0,0,0.25);
+box-shadow: 0px 0px 39px 1px rgba(0,0,0,0.25);
+}
+button{
+    width: 80px;
+    padding: 1.6% 0;
+    border-radius: 5.5px;
+background: rgb(70,106,190);
+background: linear-gradient(90deg, rgba(70,106,190,1) 0%, rgba(72,183,200,1) 100%);
+    color: #ffffff;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    outline: none;
+
+    -webkit-box-shadow: 0px 0px 39px 1px rgba(0,0,0,0.25);
+-moz-box-shadow: 0px 0px 39px 1px rgba(0,0,0,0.25);
+box-shadow: 0px 0px 39px 1px rgba(0,0,0,0.25);
+}
