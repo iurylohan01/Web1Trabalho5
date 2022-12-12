@@ -53,10 +53,31 @@
         <span id="taskname"> A sabedoria dos psicopatas </span>
         <button class="delete">X</button>
       </div>
+
+      <!-- Script de remoção de livros (padrões) -->
+      <script>document.querySelector('#tasks');
+        var task = document.querySelectorAll('.delete');
+        for (var i = 0; i < task.length; i++) {
+          task[i].onclick = function name() {
+            this.parentNode.remove();
+          }
+        }
+      </script>
+      <!-- Script de "check" de livros (padrões) -->
+      <script>document.querySelector('#tasks');
+        var tasks = document.querySelectorAll('#taskname');
+
+        for (var i = 0; i < tasks.length; i++) {
+          tasks[i].onclick = function () {
+            this.classList.toggle('completed');
+          }
+        }
+      </script>
+
     </div>
   </div>
 
-  <!-- Script anexado -->
+  <!-- Script central -->
   <script src="j.script/script.js"></script>
 </body>
 
