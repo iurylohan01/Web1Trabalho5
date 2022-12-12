@@ -16,33 +16,27 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
   <!-- Imports dos Fav.Icons -->
-<link rel="apple-touch-icon" sizes="180x180" href="fav.icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="fav.icons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="fav.icons/favicon-16x16.png">
-<link rel="manifest" href="fav.icons/site.webmanifest">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+  <link rel="apple-touch-icon" sizes="180x180" href="fav.icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="fav.icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="fav.icons/favicon-16x16.png">
+  <link rel="manifest" href="fav.icons/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
 
   <div class="container">
-      <div class="new-task-container">
-        <input
-          type="text"
-          class="new-task-input"
-          placeholder="Tarefa para ser feita..."
-        />
-
-        <button class="new-task-button">Adicionar</button>
-      </div>
-
-      <div class="tasks-container"></div>
+    <div id="newtask">
+      <input type="text" placeholder="Adicione um livro" />
+      <button id="push">Adicionar</button>
     </div>
+
+    <div id="tasks"></div>
+  </div>
 
   <!-- Script anexado -->
   <script src="j.script/script.js"></script>
-
 </body>
 
 </html>
