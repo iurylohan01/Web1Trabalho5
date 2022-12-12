@@ -7,7 +7,3 @@
   --cor-primaria: #14161b;
   --cor-primaria2: #1b1d25ff;
 }
-body{
-  background: var(--cor-fundo3);
-  font-family: Inter,Helvetica,Arial,sans-serif;
-}

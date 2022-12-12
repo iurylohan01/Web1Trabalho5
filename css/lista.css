@@ -14,6 +14,7 @@ body{
   right: 0;
   padding: 30px 0;
   border-radius: 8px;
+  font-family: Inter,Helvetica,Arial,sans-serif;
 }
 #newtask{
   position: relative;
@@ -25,7 +26,7 @@ body{
 }
 #newtask input{
   border-radius: 5px;
-  widht: 70%;
+  width: 70%;
   height: 45px;
   font-size: 15px;
   border: 2px solid #d1d3d4;
