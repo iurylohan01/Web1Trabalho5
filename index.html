@@ -9,7 +9,8 @@
   <!-- Imports de CSS -->
   <link href="css/normalize.css" rel="stylesheet" />
   <link href="css/paleta.css" rel="stylesheet" type="text/css" />
-  <link href="css/cabeçalho.css" rel="stylesheet" type="text/css" />
+  <link href="css/drop.css" rel="stylesheet" type="text/css" />
+  <link href="css/introducao.css" rel="stylesheet" type="text/css" />
   <link href="css/lista.css" rel="stylesheet" type="text/css" />
 
   <!-- Import de ícone -->
@@ -23,9 +24,34 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 </head>
-
 <body>
-
+  
+    <!-- Menu e referênciais -->
+  <div id="drop1">
+    <nav class="dropmenuu">
+      <ul>
+        <li><a><b>Informações</b></a>
+          <ul>
+            <li><b><a target="_blank" href="https://github.com/iurylohan01/Web1Trabalho5" _blank">Repositório
+                  Git</a></b></li>
+            <li><b><a target="_blank" href="https://replit.com/@IuryLohan/5o-Trabalho#index.html">Código
+                  Repl.it</a></b></li>
+        </li>
+      </ul>
+      <li><a target="_blank"
+          href="https://forms.gle/PnK5mF51jRR8LDwU8"
+          </a><b
+            style="background: rgb(161,85,212);
+background: linear-gradient(90deg, rgba(161,85,212,1) 0%, rgba(102,45,140,1) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Opine</b>
+      </li>
+    </nav>
+  </div>
+  <div id="home1">
+    <a id="icone"><img src="img/livro.png" width="35em"></a>
+  </div>
+  
+  <!-- Parte funcional da lista de livros -->
+  <br><br><br>
   <div class="container">
     <div id="newtask">
       <input type="text" placeholder="Digite aqui para adicionar um livro" />
@@ -80,5 +106,4 @@
   <!-- Script central -->
   <script src="j.script/script.js"></script>
 </body>
-
 </html>
